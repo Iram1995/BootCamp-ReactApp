@@ -33,10 +33,7 @@ jobs:
       with:
         # yarn commands  
         cmd: install  # npm install/ yarn install
-    
-     # Runs a single command using the runners shell
-    - name: Creating build
-      uses: yarn build
+  
       
      # Runs a single command using the runners shell
     - name: GitHub Action for Yarn
