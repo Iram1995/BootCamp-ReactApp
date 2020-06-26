@@ -30,7 +30,7 @@ jobs:
    
         # Runs a set of commands using the runners shell
     - name: Installing npm
-      run: npm install npm build
+      run: npm build
   
      
 
