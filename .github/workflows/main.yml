@@ -28,11 +28,8 @@ jobs:
          Version: 12
       
     # Runs a single command using the runners shell
-    - name: GitHub Action for Yarn
-      uses: Borales/actions-yarn@v2.3.0
-      with:
-        # yarn commands  
-        cmd: install  # npm install/ yarn install
+    - name: action-yarn
+      uses: comchangs/action-yarn@v0.1-beta
   
       
      # Runs a single command using the runners shell
