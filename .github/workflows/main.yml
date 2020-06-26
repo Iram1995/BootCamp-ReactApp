@@ -27,10 +27,7 @@ jobs:
       with: 
          Version: 12
       
-    # Runs a single command using the runners shell
-    - name: action-yarn
-      uses: comchangs/action-yarn@v0.1-beta
-  
+   
       
      # Runs a single command using the runners shell
     - name: GitHub Action for Yarn
